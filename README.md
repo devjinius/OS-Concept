@@ -8,7 +8,7 @@
 
 ## 입문
 
-1. [About Os](#About OS)
+1. [About Os](/#About OS)
 2. 컴퓨터 시스템 구조
    - 저장장치 계층 구조
    - Device Controller
