@@ -1,6 +1,6 @@
 # OS-Concept
 
-운영체제 스터디한 내용을 공유합니다. 
+운영체제 스터디한 내용을 공유합니다.
 
 내맘대로 재해석해서 옮깁니다. 오류가 있을 수 있습니다.
 
@@ -9,14 +9,10 @@
 ## 입문
 
 1. [About OS](#about-os)
-2. 컴퓨터 시스템 구조
-   - 저장장치 계층 구조
-   - Device Controller
-   - Program Counter
-   - Mode Bit
-   - Timer
-   - Interrupt
-   - DMA
+2. [컴퓨터 시스템 구조](#computer-system)
+   - CPU
+   - Memory
+   - IO Device
 3. 프로세스 - 소개
    - About Process
    - Process Execution
@@ -113,4 +109,17 @@
 - 시스템 보호
 - 네트워크
 
-이 문서의 대부분 내용도 위 문제와 관련되어 있다.
+
+
+## Computer System
+
+![system](assets/computer-system.png)
+
+### CPU
+
+- Instruction
+- Register
+- Program Counter
+- Mode Bit
+- Interrupt Line
+
