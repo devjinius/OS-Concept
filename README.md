@@ -183,7 +183,7 @@ CPU가 실행하는 Instruction은 여러 종류가 있다. 이 맥락에서 짚
 
 #### Interrupt
 
-멀티태스킹을 가능하게 하는 요소다. 문자 그대로 CPU를 방해하게 한다. CPU는 명령을 실행하고 나서 Interrupt Line을 검사한다. Interrupt가 없으면 다음 명령을 실행하고 있으면 Mode Bit을 0으로 바꾼뒤 (커널모드) 커널을 실행한다. 커널에는 Interrupt Handler 함수가 있다. 커널은 나름대로의 알고리즘을 통해 어떻게 처리할지 결정한다. 커널은 Mode Bit을 1로 바꾸고 다음 작업을 실행하도록 한다.
+멀티태스킹을 가능하게 하는 요소다. 문자 그대로 CPU를 방해한다. CPU는 명령을 실행하고 나서 Interrupt Line을 검사한다. Interrupt가 없으면 다음 명령을 실행하고 있으면 Mode Bit을 0으로 바꾼뒤 (커널모드) 커널을 실행한다. 커널에는 Interrupt Handler 함수가 있다. 커널은 나름대로의 알고리즘을 통해 어떻게 처리할지 결정한다. 커널은 Mode Bit을 1로 바꾸고 다음 작업을 실행하도록 한다.
 
 Interrupt는 두가지 요소가 발생시킨다.
 
