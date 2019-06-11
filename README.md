@@ -147,7 +147,7 @@ Timer로 부터 Interruption이 발생했다. CPU는 다음 동작을 그만두�
 
 #### Instruction
 
-CPU 명령 집합을 Instruction이라고 부른다. 모든 프로그래밍 언어는 실행시 기계어로 바뀐다. 즉, CPU가 이해할 수 있는 Instruction으로 바꾸 CPU가 처리하도록 한다. 기계어로 바뀌는 과정에 따라 컴파일 언어, 인터프리터 언어로 구분할 뿐이다.
+CPU 명령 집합을 Instruction이라고 부른다. 모든 프로그래밍 언어는 실행시 기계어로 바뀐다. 즉, CPU가 이해할 수 있는 Instruction으로 바꾸어 CPU가 처리하도록 한다. 기계어로 바뀌는 과정에 따라 컴파일 언어, 인터프리터 언어로 구분할 뿐이다.
 
 CPU가 실행하는 Instruction은 여러 종류가 있다. 이 맥락에서 짚어야 할 것은 CPU의 실행 모드(Mode Bit)에 따라 실행할 수 있는 Instruction이 다르다는 것이다. 커널모드(Mode Bit 0)에서는 모든 Instruction을 실행할 수 있고 유저 모드(Mode Bit 1)에서는 일부 Instruction만 가능하다.
 
