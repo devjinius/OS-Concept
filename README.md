@@ -9,7 +9,7 @@
 1. [About OS](#about-os)
 2. [컴퓨터 시스템 구조](#computer-system)
    - [CPU](#cpu)
-3. 프로세스
+3. [프로세스](#프로세스)
    - About Process
    - Process Execution
    - Process Memory Structure
@@ -19,7 +19,7 @@
    - Process Control Block (PCB)
    - Context Switching
    - System Call
-5. CPU 스케줄링
+5. [CPU 스케줄링](#cpu-스케줄링)
    1. 선점과 비선점 preemptive vs non-preemptive
    2. Scheduling Criteria
       - CPU Utilization
@@ -198,3 +198,18 @@ Interrupt는 두가지 요소가 발생시킨다.
 CPU는 무지하게 빠르다. 상대적으로 느린(백만배 이상 느린) IO장치를 넋놓고 기다리기엔 운영체제가 호락호락하지 않다. IO이 끝날 때까지 운영체제는 CPU가 기다리지 않고 다른 일을 하도록 한다. IO이 끝나면, IO를 요청한 프로세스가 이어서 실행될 수 있어야 한다. 각 Device Controller는 IO이 끝난 것을 Interrupt를 발생시켜 알린다. 
 
 그러나 너무 자주 Interrupt를 발생시키면 비효율적(Context Switching)이므로 Interrupt를 발생시키지 않고 바로 메모리에 로드할 수도 있다. 이를 관장하는게 Direct Memory Access다.
+
+
+## 프로세스
+
+### 프로세스 메모리 구조
+### PCB
+
+## CPU 스케줄링
+
+### 단일 작업 스케줄링
+### 다중 작업 스케줄링
+### Criteria
+### FCFS
+### SJF
+### Priority
