@@ -12,7 +12,7 @@
 2. [컴퓨터 시스템 구조](#computer-system)
    - [CPU](#cpu)
 3. [프로세스](#프로세스)
-   - [프로세스는?](#프로세스는?)
+   - [프로세스는?](#프로세스는)
    - [Process Memory Structure](#프로세스-메모리-구조)
    - [Process Control Block (PCB)](#pcb)
    - Process Execution
@@ -237,7 +237,7 @@ CPU는 무지하게 빠르다. 상대적으로 느린(백만배 이상 느린) I
 
 ### 프로세스 메모리 구조
 
-![프로세스](D:\repos\os-concept\assets\slide_1.jpg)
+![프로세스](/assets/slide_1.jpg)
 
 > 이미지 출처: https://slideplayer.com/slide/6168452/
 
@@ -265,7 +265,7 @@ Data, Stack은 실행하면서 내용이 바뀐다. Object를 생성하면 Data�
 
 프로세스 관리를 위한 Process Control Block이 있다. 
 
-![pcb](D:\repos\os-concept\assets\pcb.jpg)
+![pcb](/assets/pcb.jpg)
 
 > 이미지 출처: https://www.tutorialspoint.com/operating_system/os_processes.htm
 
