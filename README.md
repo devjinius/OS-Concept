@@ -269,9 +269,8 @@ Data, Stack은 실행하면서 내용이 바뀐다. Object를 생성하면 Data�
 
 > 이미지 출처: https://www.tutorialspoint.com/operating_system/os_processes.htm
 
-운영체제가 Process를 관리하기 위해 갖고 있는 정보다. 운영체제는 이 PCB를 링크드 리스트로 관리하고 있다. 
-
-
+운영체제가 Process를 관리하기 위해 갖고 있는 정보다. 운영체제는 이 PCB를 링크드 리스트로 관리하고 있다.  
+Interrupt가 발생하거나 작업중인 프로세스가 종료되면, 운영체제는 CPU에게 다음 일을 시켜야 한다. 많은 프로세스가 서로 CPU를 달라고 조르고 있다. 운영체제는 누구에게 CPU 사용권을 줄지, 또 CPU에게 어떻게 프로세스를 넘겨줄지, PCB를 보고 판단한다.
 
 ## CPU 스케줄링
 
