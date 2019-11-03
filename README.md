@@ -25,14 +25,10 @@
    - [Thread](#thread)
    - [Process Control Block (PCB)](#pcb)
 4. [CPU 스케줄링](#cpu-스케줄링)
-   1. 선점과 비선점 preemptive vs non-preemptive
-   2. Scheduling Criteria
-      - CPU Utilization
-      - Throughput
-      - Turnaround Time
-      - Waiting Time
-      - Response Time
-   3. 스케줄링 종류
+   - [동시에?](#동시-simultaneous)
+   - [선점과 비선점](#선점과-비선점)
+
+   1. 스케줄링 종류
       - FCFS
       - SJF
       - Priority
@@ -55,9 +51,8 @@
        1. Paging
        2. Segmentation
        3. Paging and Segmetation
-7. 가상 메모리
-8. 파일 시스템
-9.  
+7. 파일 시스템
+8.  
 
 ....
 
